@@ -8,4 +8,11 @@ def isEven(num: Int): Boolean =
   isDivisibleBy(2).apply(num)
 
 // Ex 2.6.2
-// def 
+def isDivisibleBy3And5(num: Int): Boolean =
+  isDivisibleBy(3).apply(num) && isDivisibleBy(5).apply(num) 
+
+def isDivisibleBy3Or5(num: Int): Boolean =
+  isDivisibleBy(3).apply(num) || isDivisibleBy(5).apply(num) 
+
+// def lift(): =
+  
