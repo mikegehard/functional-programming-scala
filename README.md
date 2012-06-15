@@ -1,0 +1,1 @@
+My solutions to the exercises from [Functional Programming in Scala](https://github.com/pchiusano/fpinscala-exercises) in both Scala and Clojure.
